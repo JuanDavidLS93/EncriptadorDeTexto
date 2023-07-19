@@ -1,0 +1,132 @@
+*{
+    background: url(imagenes/fondoTLK.avif);
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 150%;
+}
+
+header{
+    background: burlywood;
+}
+
+.logo{
+    background: none;
+    margin-left: 20px;
+    width: 8%;
+}
+
+main {
+    background: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.seccion1{
+    background: none;
+}
+
+.ta-texto{
+    background: burlywood;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    color :darkgreen;
+    margin-top: 20px;
+    margin-left: 120px;
+    padding-top: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: darkgreen;}
+    .ta-texto:focus{
+        outline: none;
+    }
+
+.ta-mensaje {
+    background: burlywood;
+    background-image: url(LOGOTLK2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    border: none;
+    border-radius: 24px;
+    font-weight: 1000;
+    text-align: center;
+    color: darkgreen;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.ta-mensaje:focus{
+    outline: none;
+}
+
+.informacionImportante{
+    font-weight: 900;
+    background: none;
+    font-size: 16px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botones2{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background: burlywood;
+    border: brown;
+    border-radius: 24px;
+    color: brown;
+    font-weight: bold;
+    cursor: pointer;
+    height: 67px;
+    width: 310px;
+}
+
+.btn-desencritar {
+    background: brown;
+    border: burlywood;
+    border-radius: 24px;
+    color: burlywood;
+    font-weight: bold ;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 20px;
+    width: 310px;
+}{}
+
+.btn-copiar {
+    background: brown;
+    border: burlywood;
+    border-radius: 24px;
+    color: burlywood;
+    font-weight: bold ;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 240px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    width: 310px;
+}
+
+footer{
+    background: burlywood;
+}
+
+.logo2{
+    background: none;
+    width: 8%;
+    margin-left: 1340px;
+    padding-top: 5px;
+    margin-top: 10px;
+}

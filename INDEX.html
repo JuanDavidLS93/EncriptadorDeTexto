@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE-ENCRIPTADOR.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+    <title>ENCRIPTADOR DE TEXTO TALEKO</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <img class="logo" src="imagenes/LOGOTLK.png" alt="logo de TALEKO">
+        </h1>
+    </header>
+    
+    <main>
+
+        <section class="seccion1">
+            <textarea class="ta-texto" cols="30" rows="10" placeholder="Ingresa el texto que quieres encriptar"></textarea>
+                <h6 class="informacionImportante">solo letras minusculas y sin acento!</h6>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">ENCRITAR</button>
+                <button class="btn-desencritar" onclick="btnDesencriptar()">DESENCRIPTAR</button>
+            </div>
+        </section>
+
+        <section class="seccion1">
+            <textarea class="ta-mensaje" cols="31" rows="13"></textarea>
+            <div class="botones2">
+                <button class="btn-copiar" onclick="copiar()">COPIAR</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>
+            <img class="logo2" src="imagenes/LOGOTLK.png" alt="logo de TALEKO">
+        </h2>
+    </footer>
+    
+    <script src="SCRIPT-TLK.js"></script>
+</body>
+</html>
